@@ -1,4 +1,4 @@
-package com.example.thread;
+package thread;
 
 /**
  * @author: tr256

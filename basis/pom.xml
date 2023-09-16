@@ -7,10 +7,10 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>stream</artifactId>
+    <artifactId>basis</artifactId>
     <packaging>jar</packaging>
 
-    <name>stream</name>
+    <name>basis</name>
     <url>http://maven.apache.org</url>
 
     <properties>
