@@ -15,6 +15,7 @@
         <module>reflection</module>
         <module>clazz</module>
         <module>basis</module>
+        <module>lambda</module>
     </modules>
 
     <properties>
