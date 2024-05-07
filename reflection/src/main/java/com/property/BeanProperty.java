@@ -52,7 +52,7 @@ public class BeanProperty {
 
         Method readMethod = propertyDescriptor.getReadMethod();
         Class<?> returnTypeClass = readMethod.getReturnType();
-        System.out.println(returnTypeClass);
+        System.out.println(returnTypeClass.getSimpleName());
         Object id = readMethod.invoke(bean);
         System.out.println(id);
     }

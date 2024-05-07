@@ -16,7 +16,32 @@
         <module>clazz</module>
         <module>basis</module>
         <module>lambda</module>
+        <module>model-mapping</module>
+        <module>collection</module>
+        <module>test</module>
+        <module>search</module>
+        <module>file</module>
+        <module>jdk</module>
+        <module>tess4j</module>
+        <module>jaxb</module>
+        <module>javacv</module>
+        <module>img</module>
+        <module>util</module>
     </modules>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>1.18.24</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>fastjson</artifactId>
+            <version>2.0.11</version>
+        </dependency>
+    </dependencies>
 
     <properties>
         <maven.compiler.source>8</maven.compiler.source>
